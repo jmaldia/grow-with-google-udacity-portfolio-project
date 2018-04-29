@@ -13,14 +13,23 @@
 html, body {
 	font-family: 'Nanum Gothic', sans-serif;
 	font-size: 16px;
+	color: #34495e;
 }
 
 h1 {
+	margin-bottom: 3px;
 	font-size: 1.5em;
+	color: #2c3e50;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none; 
+	color: #34495e;
 }
 
 .top-border {
-	border-bottom: 3px #7d97ad solid;
+	border-bottom: 3px #34495e solid;
 }
 
 header, main, .top-border {
@@ -51,7 +60,7 @@ header {
 	text-align: right;
 }
 
-p {
+header p {
 	font-size: .75em;
 }
 
@@ -61,3 +70,56 @@ p {
 /**********************/
 /*       FEATURE      */
 /**********************/
+.featured-image {
+	margin: 20px 0 40px 0;
+}
+
+.featured-image img {
+	width: 100%;
+	border-radius: 4px;
+}
+
+.featured-work {
+	text-align: center;
+}
+
+.featured-work-header {
+	margin: 20px 0;
+	font-weight: 700;
+}
+
+.work {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.item {
+	border: 1px  #34495e solid;
+	border-radius: 4px;
+	margin-bottom: 25px;
+	transition: transform .3s;
+}
+
+
+
+.item:hover {
+	transform: scale(1.02);
+	transition: transform .3s;
+}
+
+.item, .item img {
+	width: 100%;
+}
+
+.item img {
+	border-radius: 4px 4px 0 0;
+}
+
+.item-info {
+	padding: 10px;
+	font-size: 1.2em;
+}
+
+
