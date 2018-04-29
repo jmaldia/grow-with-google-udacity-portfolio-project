@@ -11,6 +11,7 @@
 }
 
 html, body {
+	background-color: #fdfdff;
 	font-family: 'Nanum Gothic', sans-serif;
 	font-size: 16px;
 	color: #34495e;
@@ -101,8 +102,6 @@ header p {
 	margin-bottom: 25px;
 	transition: transform .3s;
 }
-
-
 
 .item:hover {
 	transform: scale(1.02);
