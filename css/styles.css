@@ -32,7 +32,7 @@ a {
 	border-bottom: 3px #34495e solid;
 }
 
-header, main, .top-border {
+header, main, footer, .top-border {
 	width: 85%;
 	max-width: 900px;
 	margin: 0 auto;
@@ -122,4 +122,14 @@ header p {
 	font-size: 1.2em;
 }
 
+
+
+
+/**********************/
+/*       FOOTER       */
+/**********************/
+footer {
+	padding: 40px 0 60px 0;
+	text-align: center;
+}
 
