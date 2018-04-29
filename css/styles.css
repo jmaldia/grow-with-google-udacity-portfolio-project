@@ -97,7 +97,7 @@ header p {
 }
 
 .item {
-	border: 1px  #34495e solid;
+	border: 1px  #bbbbbb solid;
 	border-radius: 4px;
 	margin-bottom: 25px;
 	transition: transform .3s;
